@@ -1,0 +1,152 @@
+/* Write your CSS here */
+.list-item-money-details {
+  list-style-type: none;
+}
+.money-containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  width: 90%;
+  margin-top: 35px;
+}
+@media (min-width: 768px) {
+  .money-containers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    width: 59%;
+    margin-top: 35px;
+  }
+}
+.your-balance-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid #84cc16;
+  background-color: #ecfccb;
+  border-radius: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .your-balance-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #84cc16;
+    background-color: #ecfccb;
+    border-radius: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+.icon-image {
+  height: 75px;
+  width: 75px;
+  margin-right: 25px;
+}
+.amount-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.description {
+  font-size: 16px;
+  padding-top: 12px;
+}
+.amount {
+  font-size: 23px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+@media (min-width: 768px) {
+  .icon-image {
+    height: 70px;
+    width: 70px;
+    margin-right: 25px;
+  }
+  .amount-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    /* padding-top: 15px; */
+  }
+  .description {
+    font-size: 16px;
+    padding-top: 8px;
+  }
+  .amount {
+    font-size: 25px;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+}
+.your-income-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid #06b6d4;
+  background-color: #cffafe;
+  border-radius: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+  .your-income-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #06b6d4;
+    background-color: #cffafe;
+    border-radius: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+.your-expenses-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid #06b6d4;
+  background-color: #ede9fe;
+  border-radius: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+@media (min-width: 768px) {
+  .your-expenses-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #06b6d4;
+    background-color: #ede9fe;
+    border-radius: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 25%;
+  }
+}
